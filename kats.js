@@ -33,7 +33,7 @@ db.once('open', function callback () {
 		}
 	});*/
 
-	Kitten.find({ name: /^fluff/ }, function (err, kittens) {
+	Kitten.find({ name: /Silence/ }, function (err, kittens) {
 		if (err) {
 			console.log(err);
 		}
